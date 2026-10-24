@@ -19,7 +19,7 @@ cd snake.asm
 
 ## Compile Game
 ```bash
-nasm -f snake.asm -o snake.bin
+nasm -f bin snake.asm -o snake.bin
 ```
 
 ## Run Game
