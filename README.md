@@ -24,5 +24,5 @@ nasm -f snake.asm -o snake.bin
 
 ## Run Game
 ```bash
-qemu-system-x84_64 -drive format=raw,file=snake.bin
+qemu-system-x86_64 -drive format=raw,file=snake.bin
 ```
